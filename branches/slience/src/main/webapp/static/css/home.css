@@ -1,0 +1,49 @@
+body{
+    background-color: #fff;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+
+    min-height: 40px;
+    background-image: none;
+    background-color: #cccc99;
+}
+.navbar-brand {
+    float: left;
+    height: 40px;
+    padding-left: 22px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: #99cc33;
+}
+
+
+#home_content{
+    padding: 0;
+}
+#center_content{
+  margin-bottom: -20px;
+}
+#func_category{
+    padding-right: 0;
+}
+
+
+#footer_content{
+   border: solid 1px #ccc; 
+   min-height: 40px;
+}
