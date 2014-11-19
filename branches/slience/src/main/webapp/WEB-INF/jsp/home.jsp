@@ -9,6 +9,7 @@
         <%@include file="bootstrap-base.jsp" %>
 
         <link rel="stylesheet" href="static/css/home.css" />
+        <script src="static/js/home.js"></script>
 
         <title>Home Page</title>
 
@@ -35,19 +36,20 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Service</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Document <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Literature</a></li>
+                                <li><a href="#">Science</a></li>  
+                                <li class="divider"></li>
                                 <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
                             </ul>
                         </li>
+                        <li><a href="#">Tool</a></li>
+                        <li><a href="#">Demo</a></li>
+                        <li><a href="#">Storage</a></li>
+                        <li><a href="#">Dairy</a></li>
                     </ul>
 
                     <!--
@@ -78,39 +80,41 @@
         </nav>
 
 
+        <div  class="container-fluid" style="height: 40px"></div>
+        
         <!-- Page Content -->
 
-        <div id="home_content" class="container-fluid" style=" width: 100%">
+        <div id="home_content" class="container-fluid">
 
             <div id="center_content" class="row">
-                <div id="func_category" class="col-md-1">
+                <div id="func_category" class="col-md-2">
 
-                    <ul class="list-group">
+                    <ul id="collNameList" class="list-group">
+                        <!--
                         <li class="list-group-item">category 1st</li>
                         <li class="list-group-item">category 2st</li>
-                        <li class="list-group-item">category 3st</li>
+                        <li class="list-group-item active">category 3st</li>
                         <li class="list-group-item">category 4st</li>
                         <li class="list-group-item">category 5st</li>
                         <li class="list-group-item">category 6st</li>
                         <li class="list-group-item">category 7st</li>
                         <li class="list-group-item">category 8st</li>
                         <li class="list-group-item">category 9st</li>
+                        -->
                     </ul>
 
                 </div><!-- /.func_category -->
 
-                <div class="col-md-11" style=" background-color: #99cc33">
-                    
-                    .col-md-8
+                <div class="col-md-10" style=" background-color: #99cc33">
+
+
                 </div>
-                
+
             </div><!-- /.center_content -->
-            
-            <div id="footer_content" class="row">footer</div>
+
+
 
         </div><!-- /.home_content -->
-
-
 
 
     </body>
