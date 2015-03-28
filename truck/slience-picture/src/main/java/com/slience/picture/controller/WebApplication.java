@@ -1,4 +1,10 @@
+package com.slience.picture.controller;
 
+
+import com.slience.picture.service.MongoPictureService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,25 +19,12 @@ import org.springframework.context.annotation.Configuration;
  *
  * @author zdy
  */
-@Configuration
-@ComponentScan
-public class AppTest {
+@SpringBootApplication
+public class WebApplication {
 
     public static void main(String[] args) {
-
-        ApplicationContext context = new AnnotationConfigApplicationContext(AppTest.class);
-
-        //SolrSimpleQueryService solrSimpleQueryService=context.getBean(SolrSimpleQueryService.class);
-        //solrSimpleQueryService.service();
-        context.getBean(AppTest.class).test();
-
-    }
-
-    public void test() {
-        //solrSimpleQueryService.service();
-        
-        System.out.println("------->"+String.valueOf(null));
-        
+      
+        SpringApplication.run(WebApplication.class, args);
     }
 
 }
