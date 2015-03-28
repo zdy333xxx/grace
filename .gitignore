@@ -215,3 +215,7 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 /branches/slience/target/
+/branches/SolrService/target/
+/branches/AggregateModule/target/
+/branches/Spring-device-detection/target/
+/branches/PictureModule/target/

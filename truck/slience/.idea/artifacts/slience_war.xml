@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="slience:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="slience-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="slience:war exploded" />
+    </root>
+  </artifact>
+</component>
