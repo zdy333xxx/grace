@@ -31,7 +31,7 @@
               p:password=""
     -->
 
-    <bean id="mongoConfig" class="com.zdy.conf.MongoConfig"
+    <bean id="mongoConfig" class="com.slience.conf.MongoConfig"
           p:host="localhost"
           p:port="30001"
           p:database="work"
