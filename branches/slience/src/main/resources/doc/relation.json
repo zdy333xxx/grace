@@ -1,0 +1,31 @@
+{
+    "name": "XXXXX",
+    "zjhm": "XXXXXXXXXXXXXX",
+    "pageTotal": 3,
+    "pageList": [
+        {
+            "pageIndex": 1,
+            "pageItemList": [
+                {
+                    "name": "XXXXXX",
+                    "zjhm": "XXXXXXXXXXXXXX",
+                    "relationItems": [
+                        {
+                            "name": "同户",
+                            "weight": 1
+                        }, {
+                            "name": "同入住",
+                            "weight": 1
+                        }, {
+                            "name": "同上网",
+                            "weight": 1
+                        }
+                    ],
+                    "weightCount": 3,
+                    "updateTime": "20141208061230"
+                }, {
+                }
+            ]
+        }
+    ]
+}

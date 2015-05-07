@@ -22,6 +22,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("auth")
 public class AuthController {
+    
+    
+    //@Autowired
+    //JdbcTemplate jdbcTemplate
 
     //角色相关------------------------------------
     //查询所有的角色定义信息

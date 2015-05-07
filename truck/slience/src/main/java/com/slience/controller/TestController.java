@@ -126,7 +126,7 @@ public class TestController {
 
         String fileName = null;  //上传的文件名称
         InputStream inStream = null; //上传的文件数据的输入流
-        Map<String, String> paramMap = new HashMap<String, String>();
+        Map<String, String> paramMap = new HashMap<>();
 
         //获取数据
         FileItemFactory itemFactory = new DiskFileItemFactory();
